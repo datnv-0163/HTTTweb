@@ -2,16 +2,15 @@ import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
 
-var firebaseConfig = {
-  apiKey: "AIzaSyDLmnoBvnjOQ-AaJgDw1DnVBiTETbcp8LI",
-  authDomain: "the-net-ninja-sandbox.firebaseapp.com",
-  databaseURL: "https://the-net-ninja-sandbox.firebaseio.com",
-  projectId: "the-net-ninja-sandbox",
-  storageBucket: "the-net-ninja-sandbox.appspot.com",
-  messagingSenderId: "485942827092",
-  appId: "1:485942827092:web:1811d9d8f1f5fabcd5b5c1"
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+  apiKey: "AIzaSyBUSMfuM0xxJOy1gPcXjFX189t35KjVhTo",
+  authDomain: "family-album-37bfe.firebaseapp.com",
+  projectId: "family-album-37bfe",
+  storageBucket: "family-album-37bfe.appspot.com",
+  messagingSenderId: "204053342828",
+  appId: "1:204053342828:web:620bccc39c889a201a8649"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
